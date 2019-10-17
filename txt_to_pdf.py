@@ -9,9 +9,9 @@ line=1
 fichero = open("prueba.txt","r")
 
 for linea in fichero:
+    pdf.cell(200,7,txt=linea,ln=line,align="L")
     if linea[-1]==("\n"):
         linea=linea[:-1]
-    pdf.cell(200,7,txt=linea,ln=line,align="L")
     line+=1
 
 pdf.output("prueba5.pdf")
