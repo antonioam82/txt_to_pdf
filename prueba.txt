@@ -1,0 +1,6 @@
+Este es un nuevo texto
+de prueba, orientado a 
+probar la transformación
+de un archivo .txt en un
+archivo .pdf haceindo uso 
+de "fpfd".
